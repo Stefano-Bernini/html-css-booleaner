@@ -3,6 +3,7 @@
    margin: 0;
    box-sizing: border-box;
 }
+/* QUI INIZIA L' HEADER */
 /* immagine e colore sfondo */
 .sfondo_logo{
     background-color: rgba(78,160,255,1);
@@ -34,4 +35,30 @@
 #data{
     font-size: 1.4vw;
     color: grey;
+}
+
+/* QUI INIZIA IL MAIN */
+
+.immagini_tim{
+    width: 45vw;
+    height: 60vh;
+}
+
+.paragrafo{
+    font-size: 1.5vw;
+    margin-top: 5vh;
+}
+
+.evidenziatore{
+    background-color: yellow;
+}
+
+.lista{
+    padding-left: 1vw;
+    margin-top: 5vh;
+}
+
+.testo_lista{
+    font-size: 1vw;
+    font-style: bold;
 }
