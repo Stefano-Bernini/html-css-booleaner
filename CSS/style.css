@@ -5,7 +5,7 @@
 }
 /* immagine e colore sfondo */
 .sfondo_logo{
-    background-color: rgba(78,160,255,255);
+    background-color: rgba(78,160,255,1);
     background-image: url(../img/pattern.png);
     height: 18vh;
     position: relative;
