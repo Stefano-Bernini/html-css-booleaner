@@ -1,0 +1,114 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+/* div container per la centratura */
+.container{
+    width: 70vw;
+    margin: auto;
+}
+
+/* QUI INIZIA L' HEADER */
+/* immagine e colore sfondo */
+.sfondo_logo{
+    background-color: rgba(78,160,255,1);
+    background-image: url(../img/pattern.png);
+    height: 12vh;
+    position: relative;
+}
+/* dimensione e posizione logo "The Booleaner" */
+#logo{
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
+    left: 1vw;
+}
+
+/* QUI INIZIA IL MAIN */
+/* dimensione titolo */
+#titolo{
+    font-size: 4vw;
+}
+/* dimensione e colore sottotitolo */
+#titolo_h3{
+    font-size: 2vw;
+    color: grey;
+}
+/* link sottotitolo rimozione sottolineatura */
+#link_h3{
+    text-decoration: none;
+}
+/* data pubblicazione articolo */
+#data{
+    font-size: 1.4vw;
+    color: grey;
+}
+/* dimensioni immagini Tim */
+.immagini_tim{
+    width: 33vw;
+    height: 45vh;
+}
+/* dimensione e margine paragrafo */
+.paragrafo{
+    font-size: 1.5vw;
+    margin-top: 5vh;
+}
+/* evidenziatura parziale del paragrafo */
+.evidenziatore{
+    background-color: yellow;
+}
+/* movimento verso destra per visualizzare correttamente la lista  */
+.lista{
+    padding-left: 1vw;
+    margin-top: 5vh;
+}
+/* grandezza e stile testo della lista */
+.testo_lista{
+    font-size: 1vw;
+}
+/* stile e  margine tabella*/
+table{
+    border-collapse: collapse;
+    margin-top: 5vh;
+}
+/* colore sfondo intestazione tabella, colore testo e testo allineato a sinistra */
+thead{
+    background-color: rgba(32,169,229,1);
+    color: white;
+    text-align: left;
+}
+/* colore sfondo riga tabella */
+.colorato{
+    background-color: rgba(32,169,229,0.5);
+}
+/* dimenssione slot tabella */
+.colonna_grande{
+    width: 50%;
+}
+
+/* QUI INIZIA IL FOOTER */
+/* grandezza, colore e margine titolo footer */
+.titolo_footer{
+    font-size: 1.5vw;
+    color: grey;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+/* grandezza e margine slot img + colore scritta */
+.img_footer{
+    color: white;
+    height: 20vh;
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+/* import del' immagine come sfondo e no repeat */
+#img_footer_1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+}
+/* import del' immagine come sfondo e no repeat */
+#img_footer_2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+}
