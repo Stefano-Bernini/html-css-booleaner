@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+.container{
+    margin-left: 0.8vw;
+}
+
 /* QUI INIZIA L' HEADER */
 /* immagine e colore sfondo */
 .sfondo_logo{
@@ -19,6 +23,8 @@
     bottom: 0;
     left: 1vw;
 }
+
+/* QUI INIZIA IL MAIN */
 /* dimensione titolo */
 #titolo{
     font-size: 4vw;
@@ -37,8 +43,6 @@
     font-size: 1.4vw;
     color: grey;
 }
-
-/* QUI INIZIA IL MAIN */
 /* dimensioni immagini Tim */
 .immagini_tim{
     width: 45vw;
