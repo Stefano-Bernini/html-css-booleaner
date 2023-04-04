@@ -8,7 +8,7 @@
 .sfondo_logo{
     background-color: rgba(78,160,255,1);
     background-image: url(../img/pattern.png);
-    height: 18vh;
+    height: 12vh;
     position: relative;
 }
 /* dimensione e posizione logo "The Booleaner" */
@@ -38,27 +38,46 @@
 }
 
 /* QUI INIZIA IL MAIN */
-
+/* dimensioni immagini Tim */
 .immagini_tim{
     width: 45vw;
     height: 60vh;
 }
-
+/* dimensione e margine paragrafo */
 .paragrafo{
     font-size: 1.5vw;
     margin-top: 5vh;
 }
-
+/* evidenziatura parziale del paragrafo */
 .evidenziatore{
     background-color: yellow;
 }
-
+/* movimento verso destra per visualizzare correttamente la lista  */
 .lista{
     padding-left: 1vw;
     margin-top: 5vh;
 }
-
+/* grandezza e stile testo della lista */
 .testo_lista{
     font-size: 1vw;
     font-style: bold;
+}
+/* stile e  margine tabella*/
+table{
+    border-collapse: collapse;
+    margin-top: 5vh;
+}
+/* colore sfondo intestazione tabella, colore testo e testo allineato a sinistra */
+thead{
+    background-color: rgba(32,169,229,1);
+    color: white;
+    text-align: left;
+}
+/* colore sfondo riga tabella */
+.colorato{
+    background-color: rgba(32,169,229,0.5);
+}
+/* dimenssione slot tabella */
+.colonna_grande{
+    width: 50%;
 }
