@@ -3,6 +3,7 @@
    margin: 0;
    box-sizing: border-box;
 }
+
 /* QUI INIZIA L' HEADER */
 /* immagine e colore sfondo */
 .sfondo_logo{
@@ -60,7 +61,6 @@
 /* grandezza e stile testo della lista */
 .testo_lista{
     font-size: 1vw;
-    font-style: bold;
 }
 /* stile e  margine tabella*/
 table{
@@ -80,4 +80,30 @@ thead{
 /* dimenssione slot tabella */
 .colonna_grande{
     width: 50%;
+}
+
+/* QUI INIZIA IL FOOTER */
+/* grandezza, colore e margine titolo footer */
+.titolo_footer{
+    font-size: 1.5vw;
+    color: grey;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+/* grandezza e margine slot img + colore scritta */
+.img_footer{
+    color: white;
+    height: 20vh;
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+/* import del' immagine come sfondo e no repeat */
+#img_footer_1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+}
+/* import del' immagine come sfondo e no repeat */
+#img_footer_2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
 }
